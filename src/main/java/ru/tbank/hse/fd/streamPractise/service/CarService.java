@@ -67,7 +67,7 @@ public class CarService {
     /**
      * Приходит список Car
      * Необходимо вернуть список имён всех владельцев
-     * Имена не должны повторяться
+     Имена не должны повторяться
      */
     public Set<String> getOwnersCarsNames(List<Car> cars) {
         return cars.stream()
